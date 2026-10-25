@@ -1,0 +1,14 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: orchestrator-service
+
+temporal:
+  target: 127.0.0.1:7233
+  namespace: default
+
+services:
+  project-url: http://localhost:8082
+  planning-url: http://localhost:8084
